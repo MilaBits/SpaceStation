@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cfa119201084335b9ed3db7d8fac3d9, type: 3}
+  m_Name: Window
+  m_EditorClassIdentifier: 
+  Single: {fileID: 4300000, guid: 67df282885337a54c8918dbc7d5437e0, type: 3}
+  Straight: {fileID: 4300000, guid: 7d618319f918e98469c3f88eca1ebb92, type: 3}
+  Corner: {fileID: 4300000, guid: 65a4ab7a0c7ff53479c6b8785bcb2ffd, type: 3}
+  End: {fileID: 4300000, guid: e94fb468cb953794390914b812ec4dd1, type: 3}
+  Spllt: {fileID: 4300000, guid: ea705ceeb688d5a4dacba4ed7c10d8ec, type: 3}
+  Center: {fileID: 4300000, guid: e049f93ebf3341443845bf0b26fa1404, type: 3}
