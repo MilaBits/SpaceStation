@@ -8,7 +8,7 @@ public class FieldOfViewEditor : OdinEditor {
         FieldOfView fov = (FieldOfView)target;
 
         Handles.color = Color.white;
-        Handles.DrawWireArc(fov.CenterPoint, Vector3.up, Vector3.forward, 360, fov.ViewRadius);
+        Handles.DrawWireArc(fov.transform.position + fov.CenterPoint, Vector3.up, Vector3.forward, 360, fov.ViewRadius);
         
         Vector3 viewAngleA = fov.DirectionFromAngle(-fov.ViewAngle / 2, false);
         Vector3 viewAngleB = fov.DirectionFromAngle(fov.ViewAngle / 2, false);

@@ -3873,31 +3873,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 448
       objectReference: {fileID: 0}
-    - target: {fileID: 23853406104225596, guid: 41bef58910ce84c4abf2413ff5cf762d,
-        type: 2}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5ab90c2b0a9c8aa458712482e335b344, type: 2}
-    - target: {fileID: 23853406104225596, guid: 41bef58910ce84c4abf2413ff5cf762d,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: bc26d19ab1a92ce4fa416a4429f8468f, type: 2}
-    - target: {fileID: 23324996069906794, guid: 41bef58910ce84c4abf2413ff5cf762d,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: bc26d19ab1a92ce4fa416a4429f8468f, type: 2}
-    - target: {fileID: 23324996069906794, guid: 41bef58910ce84c4abf2413ff5cf762d,
-        type: 2}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: 5ab90c2b0a9c8aa458712482e335b344, type: 2}
-    - target: {fileID: 23055055464068334, guid: 41bef58910ce84c4abf2413ff5cf762d,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: d4d04408a7784c84e9db35068f00f701, type: 2}
     - target: {fileID: 1987668619877084, guid: 41bef58910ce84c4abf2413ff5cf762d, type: 2}
       propertyPath: m_Name
       value: Door Single (9)
@@ -18172,10 +18147,6 @@ Prefab:
       propertyPath: m_Name
       value: Reinforced Metal Wall (50)
       objectReference: {fileID: 0}
-    - target: {fileID: 1563803448198558, guid: 5321f288cbca1a9469374f4080c84c77, type: 2}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5321f288cbca1a9469374f4080c84c77, type: 2}
   m_IsPrefabAsset: 0
@@ -18643,8 +18614,8 @@ MeshRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1504942377}
   m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -18685,7 +18656,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1504942377}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -2, z: 0}
+  m_LocalPosition: {x: 0, y: 2, z: 0}
   m_LocalScale: {x: 100, y: 1, z: 100}
   m_Children: []
   m_Father: {fileID: 0}
@@ -24229,10 +24200,6 @@ Prefab:
     - target: {fileID: 1403915271513862, guid: 5b22b1088cb4c4e47b144a9409b0f5ac, type: 2}
       propertyPath: m_Name
       value: Glass Window (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1403915271513862, guid: 5b22b1088cb4c4e47b144a9409b0f5ac, type: 2}
-      propertyPath: m_StaticEditorFlags
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b22b1088cb4c4e47b144a9409b0f5ac, type: 2}
